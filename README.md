@@ -476,7 +476,6 @@ const aboutMe = {
 
 ### Show some ❤️ by starring some of my repositories!
 
-![](https://komarev.com/ghpvc/?username=yourusername&color=2e9ef7&style=flat-square&label=Profile+Views)
 
 **© 2025 ANURUDDHA PAUL. All rights reserved.**
 
