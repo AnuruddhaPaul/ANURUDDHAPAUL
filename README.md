@@ -261,30 +261,6 @@ timeline
 
 </div>
 
----
-
-## 🌟 Featured Projects
-
-<div align="center">
-
-[![YOLO HARVEST](https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=yolo-harvest&theme=tokyonight&hide_border=true)](https://github.com/yourusername/yolo-harvest)
-[![AI Research Generator](https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=ai-research-generator&theme=tokyonight&hide_border=true)](https://github.com/yourusername/ai-research-generator)
-[![Dora AI Assistant](https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=dora-ai-assistant&theme=tokyonight&hide_border=true)](https://github.com/yourusername/dora-ai-assistant)
-[![Multi-Model QA](https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=multi-model-qa&theme=tokyonight&hide_border=true)](https://github.com/yourusername/multi-model-qa)
-
-</div>
-
----
-
-## 📈 Contribution Graph
-
-<div align="center">
-
-![Snake animation](https://raw.githubusercontent.com/yourusername/yourusername/output/github-contribution-grid-snake-dark.svg)
-
-</div>
-
----
 
 ## 🎯 2025 Goals
 
