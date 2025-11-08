@@ -4,10 +4,6 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=2E9EF7&center=true&vCenter=true&multiline=true&width=800&height=100&lines=Computer+Vision+%26+Deep+Learning+Researcher;Machine+Learning+Engineer;AI+Systems+Developer" alt="Typing SVG" />
 
-[![GitHub followers](https://img.shields.io/github/followers/yourusername?style=for-the-badge&logo=github&labelColor=1c1c1c&color=2e9ef7)](https://github.com/yourusername)
-[![Profile Views](https://komarev.com/ghpvc/?username=yourusername&style=for-the-badge&color=2e9ef7)](https://github.com/yourusername)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5&color=2e9ef7)](https://linkedin.com/in/yourprofile)
-[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335&color=2e9ef7)](mailto:your.email@example.com)
 
 </div>
 
