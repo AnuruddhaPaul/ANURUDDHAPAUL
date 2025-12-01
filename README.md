@@ -14,7 +14,7 @@
 ```python
 class AIResearcher:
     def __init__(self):
-        self.name = "Your Name"
+        self.name = "Anuruddha Paul"
         self.role = "Computer Science Student & AI Researcher"
         self.institution = "KIIT University"
         self.cgpa = 9.8
@@ -260,14 +260,14 @@ timeline
 
 ## 🎯 2025 Goals
 
-- [ ] 🎓 Maintain 9.8+ CGPA at KIIT University
-- [ ] 📝 Publish research paper on Hybrid YOLO-Transformer Architecture
-- [ ] 🚀 Deploy 3+ production-grade AI applications
+- [✅] 🎓 Maintain 9.8+ CGPA at KIIT University
+- [✅] 📝 Publish research paper on Hybrid YOLO-Transformer Architecture
+- [✅] 🚀 Deploy 3+ production-grade AI applications
 - [ ] 🌟 Contribute to major open-source AI projects
 - [ ] 🏆 Win competitive programming competitions
 - [ ] 💻 Master LangGraph & Agentic AI systems
-- [ ] 📊 Build comprehensive ML portfolio with 20+ projects
-- [ ] 🤝 Collaborate with AI research labs
+- [✅] 📊 Build comprehensive ML portfolio with 20+ projects
+- [✅] 🤝 Collaborate with AI research labs
 
 ---
 
@@ -405,7 +405,7 @@ I'm always open to:
 
 ## 🎓 Education
 
-<div align="center">
+<div align="left">
 
 ### 🏛️ KIIT University
 **Bachelor of Technology in Computer Science** | 2023 - 2027  
