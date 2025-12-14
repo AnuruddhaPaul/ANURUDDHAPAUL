@@ -2,7 +2,7 @@
   
 # 👋 Hi, I'm ANURUDDHA PAUL
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=2E9EF7&center=true&vCenter=true&multiline=true&width=800&height=100&lines=Computer+Vision+%26+Deep+Learning+Researcher;Machine+Learning+Engineer;AI+Systems+Developer" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=2E9EF7&center=true&vCenter=true&multiline=true&width=800&height=100&lines=Computer+Vision+%26+Deep+Learning+Researcher" alt="Typing SVG" />
 
 
 </div>
