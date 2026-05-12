@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800" height="380">
+  <style>
+    @keyframes blink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+    .cursor { animation: blink 1s step-end infinite; }
+  </style>
+  <defs>
+    <!-- Line 1: command 1  t=0.5s→2.3s  (keyTimes in 22s cycle) -->
+    <clipPath id="c1">
+      <rect x="0" y="48" height="22" width="0">
+        <animate attributeName="width" values="0;0;780;780;0;0" keyTimes="0;0.023;0.105;0.860;0.861;1" calcMode="linear" dur="22s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <!-- Line 2: output  t=2.5s→3.6s -->
+    <clipPath id="c2">
+      <rect x="0" y="70" height="22" width="0">
+        <animate attributeName="width" values="0;0;780;780;0;0" keyTimes="0;0.114;0.164;0.860;0.861;1" calcMode="linear" dur="22s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <!-- Line 3: output  t=3.8s→4.8s -->
+    <clipPath id="c3">
+      <rect x="0" y="92" height="22" width="0">
+        <animate attributeName="width" values="0;0;780;780;0;0" keyTimes="0;0.173;0.218;0.860;0.861;1" calcMode="linear" dur="22s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <!-- Line 4: output  t=5.0s→6.1s -->
+    <clipPath id="c4">
+      <rect x="0" y="114" height="22" width="0">
+        <animate attributeName="width" values="0;0;780;780;0;0" keyTimes="0;0.227;0.277;0.860;0.861;1" calcMode="linear" dur="22s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <!-- Line 5: success  t=6.3s→7.1s -->
+    <clipPath id="c5">
+      <rect x="0" y="136" height="22" width="0">
+        <animate attributeName="width" values="0;0;780;780;0;0" keyTimes="0;0.286;0.323;0.860;0.861;1" calcMode="linear" dur="22s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <!-- Line 6: command 2  t=8.0s→9.7s -->
+    <clipPath id="c6">
+      <rect x="0" y="180" height="22" width="0">
+        <animate attributeName="width" values="0;0;780;780;0;0" keyTimes="0;0.364;0.441;0.860;0.861;1" calcMode="linear" dur="22s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <!-- Line 7: output  t=10.0s→10.9s -->
+    <clipPath id="c7">
+      <rect x="0" y="202" height="22" width="0">
+        <animate attributeName="width" values="0;0;780;780;0;0" keyTimes="0;0.455;0.495;0.860;0.861;1" calcMode="linear" dur="22s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <!-- Line 8: output  t=11.2s→12.0s -->
+    <clipPath id="c8">
+      <rect x="0" y="224" height="22" width="0">
+        <animate attributeName="width" values="0;0;780;780;0;0" keyTimes="0;0.509;0.545;0.860;0.861;1" calcMode="linear" dur="22s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <!-- Line 9: output  t=12.3s→13.1s -->
+    <clipPath id="c9">
+      <rect x="0" y="246" height="22" width="0">
+        <animate attributeName="width" values="0;0;780;780;0;0" keyTimes="0;0.559;0.595;0.860;0.861;1" calcMode="linear" dur="22s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <!-- Line 10: success  t=13.4s→14.1s -->
+    <clipPath id="c10">
+      <rect x="0" y="268" height="22" width="0">
+        <animate attributeName="width" values="0;0;780;780;0;0" keyTimes="0;0.609;0.641;0.860;0.861;1" calcMode="linear" dur="22s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- Terminal background -->
+  <rect width="800" height="380" rx="12" ry="12" fill="#0d1117"/>
+
+  <!-- Title bar -->
+  <rect width="800" height="40" rx="12" ry="12" fill="#161b22"/>
+  <rect y="28" width="800" height="12" fill="#161b22"/>
+
+  <!-- macOS traffic light buttons -->
+  <circle cx="22" cy="20" r="7" fill="#ff5f57"/>
+  <circle cx="44" cy="20" r="7" fill="#febc2e"/>
+  <circle cx="66" cy="20" r="7" fill="#28c840"/>
+
+  <!-- Window title -->
+  <text x="400" y="25" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="12" fill="#6e7681">anuruddha@research: ~/ml-research — python</text>
+
+  <!-- ── Session 1: HARVEST training ── -->
+
+  <!-- Line 1: prompt + command -->
+  <text x="20" y="65" font-family="'Courier New', Courier, monospace" font-size="13" fill="#79c0ff" clip-path="url(#c1)">&#x276F; python train_harvest.py --model yolo-vit-hybrid --epochs 100</text>
+
+  <!-- Line 2: dataset load -->
+  <text x="20" y="87" font-family="'Courier New', Courier, monospace" font-size="13" fill="#8b949e" clip-path="url(#c2)">  Loading HARVEST dataset... &#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588;&#x2588; 100%  (47,832 images)</text>
+
+  <!-- Line 3: architecture init -->
+  <text x="20" y="109" font-family="'Courier New', Courier, monospace" font-size="13" fill="#8b949e" clip-path="url(#c3)">  Initializing YOLOv8 + ViT hybrid  [ SPT + LIFE + LEA ]</text>
+
+  <!-- Line 4: training result -->
+  <text x="20" y="131" font-family="'Courier New', Courier, monospace" font-size="13" fill="#e3b341" clip-path="url(#c4)">  Epoch 100/100  |  Loss: 0.0023  |  mAP@0.5: 94.7%  |  mAP@0.95: 87.3%</text>
+
+  <!-- Line 5: publication success -->
+  <text x="20" y="153" font-family="'Courier New', Courier, monospace" font-size="13" fill="#3fb950" clip-path="url(#c5)">  &#x2713;  Published &#x2192; Ecological Informatics, Elsevier  (Jan 2026)</text>
+
+  <!-- ── Session 2: VLM evaluation ── -->
+
+  <!-- Line 6: prompt + command -->
+  <text x="20" y="197" font-family="'Courier New', Courier, monospace" font-size="13" fill="#79c0ff" clip-path="url(#c6)">&#x276F; python evaluate_vlm.py --dataset caltech --metrics CDS,CR,PS</text>
+
+  <!-- Line 7: CDS metric -->
+  <text x="20" y="219" font-family="'Courier New', Courier, monospace" font-size="13" fill="#d2a8ff" clip-path="url(#c7)">  Context Dependency Score  (CDS) :  0.847  &#x26A0;  background shortcuts!</text>
+
+  <!-- Line 8: CR metric -->
+  <text x="20" y="241" font-family="'Courier New', Courier, monospace" font-size="13" fill="#3fb950" clip-path="url(#c8)">  Context Robustness        (CR)  :  0.923</text>
+
+  <!-- Line 9: PS metric -->
+  <text x="20" y="263" font-family="'Courier New', Courier, monospace" font-size="13" fill="#e3b341" clip-path="url(#c9)">  Prompt Sensitivity        (PS)  :  0.312  (40%+ background-driven)</text>
+
+  <!-- Line 10: submission success -->
+  <text x="20" y="285" font-family="'Courier New', Courier, monospace" font-size="13" fill="#3fb950" clip-path="url(#c10)">  &#x2713;  Submitted &#x2192; Vision Conference  [Under Review]</text>
+
+  <!-- Blinking cursor at bottom -->
+  <text x="20" y="330" font-family="'Courier New', Courier, monospace" font-size="13" fill="#79c0ff" class="cursor">&#x276F; &#x2587;</text>
+</svg>
